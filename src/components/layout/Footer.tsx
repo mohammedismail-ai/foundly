@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { useStore } from '../../store/useStore'
 import { 
   Sun, 
   Moon, 
