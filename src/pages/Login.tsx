@@ -9,7 +9,6 @@ export default function Login() {
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
   const [isForgotPassword, setIsForgotPassword] = useState(false)
-  const [isResetSent, setIsResetSent] = useState(false)
   const { setUser } = useStore()
   const navigate = useNavigate()
 
