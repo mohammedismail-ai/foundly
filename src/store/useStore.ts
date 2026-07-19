@@ -99,8 +99,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'QR Keychains',
     description: 'Protect your home keys with this premium metal QR keychain. Elegant design, durable finish, and highly visible unique QR code to help finders return your keys instantly.',
     images: ['/images/products/img1.jpeg'],
-    price: 299,
-    stock: 120,
+    price: 199,
+    stock: 100,
     features: ['High-grade stainless steel', 'Scratch-proof protective layer', 'Premium matte black finish', 'Weatherproof QR print']
   },
   {
@@ -109,7 +109,7 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'QR Keychains',
     description: 'Never worry about losing your expensive car key fob. This heavy-duty smart QR keychain is built for automotive enthusiasts and everyday drivers.',
     images: ['/images/products/img2.jpeg'],
-    price: 299,
+    price: 199,
     stock: 80,
     features: ['Zinc alloy reinforcement', 'Braided leather strap loop', 'Rust-resistant coating', 'High-contrast laser engraving']
   },
@@ -119,8 +119,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'QR Keychains',
     description: 'A rugged, weather-resistant keychain designed for motorcyclists and cyclists. Attaches securely to key rings and stands up to wind, rain, and mud.',
     images: ['/images/products/img3.jpeg'],
-    price: 299,
-    stock: 95,
+    price: 199,
+    stock: 90,
     features: ['Flexible silicone body', 'Zero-scratch design for fuel tanks', '100% waterproof', 'Secure split ring']
   },
   {
@@ -129,8 +129,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Wallet Cards',
     description: 'An ultra-slim, credit card-sized PVC smart card that fits perfectly in any wallet, card holder, or purse. A finder can scan the card to return your wallet.',
     images: ['/images/products/img4.jpeg'],
-    price: 249,
-    stock: 200,
+    price: 199,
+    stock: 100,
     features: ['Ultra-thin 0.8mm profile', 'Durable matte PVC material', 'Standard credit card size', 'UV-protected printing']
   },
   {
@@ -139,8 +139,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Luggage Tags',
     description: 'Travel with peace of mind. This premium luggage tag keeps your contact info hidden behind a QR scan, keeping your private details safe until an item is found.',
     images: ['/images/products/img5.jpeg'],
-    price: 349,
-    stock: 150,
+    price: 199,
+    stock: 100,
     features: ['Sturdy steel wire cable', 'Synthetic vegan leather protector', 'Privacy flap design', 'Global recovery network access']
   },
   {
@@ -149,8 +149,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Luggage Tags',
     description: 'Perfect for school bags, laptop backpacks, and gym bags. Make sure your expensive bags can find their way back to you if left behind.',
     images: ['/images/products/img6.jpeg'],
-    price: 349,
-    stock: 110,
+    price: 199,
+    stock: 100,
     features: ['Flexible loop strap', 'Vibrant accent colors', 'Impact-resistant casing', 'Double-sided QR exposure']
   },
   {
@@ -160,7 +160,7 @@ const DEFAULT_PRODUCTS: Product[] = [
     description: 'A specialized curved smart tag with strong 3M adhesive that fits seamlessly on motorcycle or bicycle helmets. Essential for safety and ownership identification.',
     images: ['/images/products/img7.jpeg'],
     price: 199,
-    stock: 75,
+    stock: 70,
     features: ['Ultra-strong 3M adhesive backing', 'Curved shape matching helmet contour', 'Reflective safety striping', 'Extreme weather resistant']
   },
   {
@@ -169,7 +169,7 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Spectacles Sticker',
     description: 'Never lose your sunglasses or prescription glasses. This smart QR sticker attaches to your frames and lets anyone scan to return them instantly.',
     images: ['/images/products/img8.jpeg'],
-    price: 149,
+    price: 129,
     stock: 90,
     features: ['Strong adhesive backing', 'Ultra-thin profile', 'Universal fit for all frames', 'Waterproof QR print']
   },
@@ -179,8 +179,8 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Umbrella Tags',
     description: 'Umbrellas are one of the most commonly misplaced items. Secure yours with this simple, secure loop tag that wraps around the handle.',
     images: ['/images/products/img9.jpeg'],
-    price: 149,
-    stock: 130,
+    price: 199,
+    stock: 100,
     features: ['Water-submersible material', 'Easy self-locking loop', 'Soft-touch silicone band', 'Fast drying']
   },
   {
@@ -189,18 +189,18 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Pet Tags',
     description: 'Ensure your beloved pet always finds their way back. This lightweight, circular collar tag lets anyone scan to find your name and phone number.',
     images: ['/images/products/img10.png'],
-    price: 299,
-    stock: 140,
+    price: 199,
+    stock: 100,
     features: ['Ultra-lightweight aluminum', 'Jingle-free design option', 'Includes durable split ring', 'Pet-safe round edges']
   },
   {
     id: 'prod-car-sticker',
     name: 'Car Windshield Sticker',
-    category: 'Vehicle Stickers',
+    category: 'Vehicle Sticker',
     description: 'Place this QR sticker on your car windshield. Useful for parking issues, emergency towing, or accidents, letting people message you without exposing your number.',
     images: ['/images/products/img11.jpeg'],
-    price: 199,
-    stock: 180,
+    price: 129,
+    stock: 100,
     features: ['Static-cling application', 'UV-fade resistant inks', 'Visible through tinted glass', 'No-residue removal']
   },
   {
@@ -209,7 +209,7 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Combo Packs',
     description: 'The ultimate protection bundle for your family. Includes 1x House QR Keychain, 1x Car QR Keychain, 1x Wallet QR Card, and 1x Backpack Tag at a special combo price.',
     images: ['/images/products/img12.png'],
-    price: 999, // Bundled discounted price (Original: 299+299+249+349 = 1196)
+    price: 749, // Bundled discounted price (Original: 199+199+199+199 = 796)
     stock: 50,
     features: ['Complete family protection', 'Save ₹197 with this bundle', 'Covers keys, bags, and wallets', 'Instant scan & return system']
   },
@@ -219,7 +219,7 @@ const DEFAULT_PRODUCTS: Product[] = [
     category: 'Combo Packs',
     description: 'The complete protection kit for your rides. Includes 1x Car QR Keychain, 1x Car Windshield Sticker, and 1x Helmet Tag at a bundled price.',
     images: ['/images/products/img13.png'],
-    price: 599, // Bundled discounted price (Original: 299+199+199 = 697)
+    price: 499, // Bundled discounted price (Original: 199+129+199 = 527)
     stock: 60,
     features: ['Complete vehicle protection', 'Save ₹98 with this bundle', 'Covers cars, bikes, and helmets', 'Instant scan & return system']
   }
