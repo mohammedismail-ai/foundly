@@ -12,7 +12,7 @@ export const formatInstagramMessage = (
     state: string;
   }
 ) => {
-  let message = 'Hello Foundly,\n\nI want to place the following order.\n\n';
+  let message = 'Hello Foundly._,\n\nI want to place the following order.\n\n';
 
   items.forEach((item, index) => {
     message += `${index + 1}.\n${item.name} ×${item.quantity}\n\n`;
