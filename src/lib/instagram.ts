@@ -41,11 +41,11 @@ export const openInstagramCheckout = (message: string, instagramUsername: string
   // We copy to clipboard first, then open Instagram DM.
   navigator.clipboard.writeText(message).then(() => {
     alert("Order details copied to clipboard! Please paste them in our Instagram DMs to complete your order.");
-    const url = `https://ig.me/m/${instagramUsername}`;
+    const url = `https://www.instagram.com/foundly._?stkn=MXUwbnA3bmQ1cG1yZA%3D%3D&utm_source=qr}`;
     window.open(url, '_blank');
   }).catch(() => {
     // Fallback if clipboard fails
-    const url = `https://ig.me/m/${instagramUsername}`;
+    const url = `https://www.instagram.com/foundly._?stkn=MXUwbnA3bmQ1cG1yZA%3D%3D&utm_source=qr}`;
     window.open(url, '_blank');
   });
 };
