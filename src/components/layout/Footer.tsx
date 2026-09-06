@@ -48,7 +48,7 @@ export default function Footer() {
             {/* Socials - Using inline SVGs for reliability */}
             <div className="flex gap-4 pt-2">
               <a 
-                href="https://instagram.com/foundly" 
+                href="`https://www.instagram.com/foundly._?stkn=MXUwbnA3bmQ1cG1yZA%3D%3D&utm_source=qr}`;" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-2.5 bg-muted hover:bg-accent hover:text-white rounded-xl transition-all"
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="border-t border-border/60 pt-8 flex flex-col sm:flex-row justify-between items-center gap-6">
           <p className="text-xs text-muted-foreground flex items-center gap-1.5">
-            &copy; {new Date().getFullYear()} Foundly. Made with <Heart className="h-3 w-3 text-red-500 fill-red-500" /> for your security.
+            &copy; {new Date().getFullYear()} Foundly._ Made with <Heart className="h-3 w-3 text-red-500 fill-red-500" /> for your security.
           </p>
 
           {/* Theme Toggle */}
