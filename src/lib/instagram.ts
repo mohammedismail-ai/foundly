@@ -36,7 +36,7 @@ export const formatInstagramMessage = (
   return message; // No longer URI encoding because we will copy to clipboard
 };
 
-export const openInstagramCheckout = (message: string, instagramUsername: string = 'foundly.in') => {
+export const openInstagramCheckout = (message: string, instagramUsername: string = 'foundly._') => {
   // Instagram URL scheme doesn't support pre-filled text like WhatsApp.
   // We copy to clipboard first, then open Instagram DM.
   navigator.clipboard.writeText(message).then(() => {
